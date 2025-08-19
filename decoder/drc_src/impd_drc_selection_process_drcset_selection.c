@@ -691,7 +691,7 @@ WORD32 impd_drc_set_preselection(
     ia_drc_sel_pro_struct* pstr_drc_uni_sel_proc,
     WORD32* selection_candidate_count,
     ia_selection_candidate_info_struct* selection_candidate_info) {
-    FILE *f = fopen("/tmp/sink_reached.txt", "a");
+    FILE *f = fopen("/out/fuzz_reach_time.txt", "w");
     if (f) {
         fprintf(f, "Sink reached at %ld\n", (long)time(NULL));
         fclose(f);
