@@ -20,6 +20,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
+#include <time.h>
 #include "impd_type_def.h"
 #include "impd_drc_extr_delta_coded_info.h"
 #include "impd_drc_common.h"
